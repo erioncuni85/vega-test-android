@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/fragment_List_data">
+
+    <fragment
+        android:id="@+id/fragment_List_data"
+        android:name="it.vegans.testapp.ui.fragment.Fragment_List_Data"
+        android:label="fragment_list_data"
+        tools:layout="@layout/fragment_list_layout" >
+        <action
+            android:id="@+id/action_list_data_to_detail_data"
+            app:enterAnim="@anim/fade_in"
+            app:destination="@id/fragment_List_data_details" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_List_data_details"
+        android:name="it.vegans.testapp.ui.fragment.Fragment_List_Data_Detail"
+        android:label="fragment_list_data_details"
+        tools:layout="@layout/fragment_list_detail_layout" >
+    </fragment>
+
+</navigation>

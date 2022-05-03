@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TestApp</string>
+    <string name="image_content">Image content</string>
+    <string name="label_date">Label Date</string>
+    <string name="label_title">Label Title</string>
+    <string name="date">Date</string>
+    <string name="tittle">tittle</string>
 </resources>

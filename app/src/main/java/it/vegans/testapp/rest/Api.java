@@ -11,9 +11,9 @@ public interface Api {
 
 
     public static String BASE_URL = "https://apivegans.veganslab.xyz/";
-
+//https://apivegans.veganslab.xyz/test.json
     @GET("test.json")
-    Call<List<VegansModel>> getData();
+    Call<VegansModel> getData();
 
 
 
